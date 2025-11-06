@@ -14,7 +14,7 @@ header {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
 }
 
-nav {
+.navigation {
   position: fixed;
   height: 10vh;
   width: 100%;
@@ -26,15 +26,20 @@ nav {
   gap: 5em;
 }
 
-/*.navigation {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-    gap: 5em;
-    flex-grow: 1;
-} */
+.navigation-scroll {
+  position: fixed;
+  height: 10vh;
+  width: 70%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 5em;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 2em;
+}
+
 .nav-list {
   display: flex;
   list-style: none;
