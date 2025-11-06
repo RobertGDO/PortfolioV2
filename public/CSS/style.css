@@ -127,7 +127,7 @@ nav a {
 }
 
 .about-section p {
-  width: 65%;
+  width: 45%;
   word-wrap: break-word;
   font-size: 16px;
   text-align: center;
@@ -138,7 +138,8 @@ nav a {
 .about-section h1 {
   color: white;
   font-size: 64px;
-  margin-top: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
 }
 
 .project-section {
