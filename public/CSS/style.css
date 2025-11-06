@@ -255,6 +255,26 @@ nav a {
   background-color: brown;
 }
 
+.project-python {
+  background-color: yellow;
+}
+
+.project-git {
+  background-color: rgb(149, 32, 149);
+}
+
+.project-matlib {
+  background-color: aqua;
+}
+
+.project-tensorflow {
+  background-color: chocolate;
+}
+
+.project-xampp {
+  background-color: mintcream;
+}
+
 .button {
   display: flex;
   justify-content: center;
