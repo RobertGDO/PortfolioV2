@@ -19,14 +19,14 @@
 .project-card {
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2) inset, 0 6px 20px 0 rgb(255, 253, 253, 0.05);
-    background-color: #16213e;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.406);
+    background-color: rgb(26, 26, 36);
     width: 100%;
     max-width: 325px;
     height: 500px;
     border-radius: 2em;
     font-family: 'Inter';
-    border: 0.1em solid #C5A23E;
+    border: 0.1em solid rgb(197, 162, 62);
     overflow: hidden;
 }
 

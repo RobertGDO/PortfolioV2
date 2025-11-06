@@ -155,14 +155,14 @@ nav a {
 .project-card {
   display: flex;
   flex-direction: column;
-  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(255, 253, 253, 0.05);
-  background-color: #16213e;
+  box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.406);
+  background-color: rgb(26, 26, 36);
   width: 100%;
   max-width: 325px;
   height: 500px;
   border-radius: 2em;
   font-family: "Inter";
-  border: 0.1em solid #C5A23E;
+  border: 0.1em solid rgb(197, 162, 62);
   overflow: hidden;
 }
 
@@ -317,9 +317,13 @@ nav a {
 }
 
 .contact-section {
-  background-color: green;
-  display: flex;
-  justify-content: center;
+  background-color: #0D1321;
+  text-align: center;
+  color: white;
+}
+
+.contact-section h1 {
+  margin-bottom: 1em;
 }
 
 .contact-button {
@@ -327,6 +331,72 @@ nav a {
   background-color: black;
   border: 60px solid linear-gradient(red 50%, white 50%);
   border-radius: 10px;
-  padding: 25px;
-  font-size: 25px;
+  font-size: 15px;
+  width: 50%;
+  height: 50px;
+  align-self: center;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  height: 500px;
+  width: 100%;
+  max-width: 500px;
+  background-color: rgb(26, 26, 36);
+  padding: 2em;
+  border-radius: 1em;
+  border: 0.1em solid rgb(197, 162, 62);
+  margin-bottom: 2em;
+  box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.406);
+}
+
+.row-inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  width: 100%;
+}
+
+.field-format {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.5em;
+  flex: 1;
+  min-width: 0;
+}
+
+.field-format input {
+  border-radius: 0.3em;
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.51);
+  background-color: rgb(58, 58, 58);
+  border: rgba(255, 255, 255, 0.204) 0.1em solid;
+  box-sizing: border-box;
+  padding: 0.5em;
+}
+
+.field-format textarea {
+  text-align: left;
+  border-radius: 0.5em;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.51);
+  background-color: rgb(58, 58, 58);
+  border: rgba(255, 255, 255, 0.204) 0.1em solid;
+}
+
+.contact-intro img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1em;
 }/*# sourceMappingURL=style.css.map */

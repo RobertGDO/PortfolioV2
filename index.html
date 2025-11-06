@@ -292,9 +292,27 @@
         <div class="contact-section">
             <h1>Contact me!</h1>
             <div class="form-container">
-                <label>Enter Your Name</label>
-                <input type="text" value ="name">
-                <input class="contact-button" type="button" value="Contact Me">
+                <form action="mailto:Robert.j.allanofficial@gmail.com?subject=Contact_form" method="GET">
+                    <div class="contact-intro">
+                        <img src="images\R.png" alt="R logo">
+                        <h2>Fill out these fields and I will get back to you asap</h2>
+                    </div>
+                    <div class="row-inputs">
+                        <div class="field-format">
+                            <label>Subject:</label>
+                            <input type="text" placeholder="subject" name="subject" required>
+                        </div>
+                        <div class="field-format">
+                            <label>Email:</label>
+                            <input type="email" name="Email" placeholder="Enter Email" required>
+                        </div>
+                    </div>
+                    <div class="field-format">
+                        <label>Message:</label>
+                        <textarea name="body" rows="5" cols="50" placeholder="Enter Message Here" required></textarea>
+                    </div>    
+                    <input class="contact-button" type="submit" value="SUBMIT">
+                </form>
             </div>
         </div>
     </section>
