@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/CSS/style.css">
+    <script src="https://kit.fontawesome.com/d2cdc7971c.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+    <!-- Navigation bar -->
+    <nav class="navigation">
+        <img class="Logo" src="images/R.png" alt="My Logo" class="Logo"/>
+        <ul class="nav-list">
+            <li><a href="#about">About me!</a></li>
+            <li><a href="#project">My projects!</a></li>
+            <li><a href="#skills"> My Skills</a></li>
+            <li><a href="#contact">Contact me!</a></li>
+        </ul>
+
+        <!-- social icons -->
+        <div class="socialIcons">
+            <a href="https://github.com/RobertGDO" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/robert-allan-aa41731b2/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </nav>
+
+        <!-- Intro -->
+    <section>
+        <div class="HomeName">
+            <h1>Robert<span> Allan</span></h1>
+            <h3>Recent Computer Science Graduate</h3>
+            <a href="Document\Robert Allan_CV_S.docx" download>Click here for my CV!</a>
+        </div>
+    </section>
+    </header>
+
+    <main>
+
+    <!--About me-->
+    <section id="about">
+        <div class="about-section">
+            <h1>About Me</h1><br>
+            <p>Welcome to my Portfolio!<br>
+               I am a dedicated Computer Science student at the University of Northampton, working towards a First-Class Honours degree.<br>
+               I have gained practical experience through software development challenges with leading organisations such as Access Group, Barclays, and Triad Group PLC.<br>
+               My technical expertise spans multiple programming languages including Python, PHP, Java, and JavaScript, supported by a strong understanding of agile methodologies and software documentation.<br>
+               I am passionate about developing efficient, reliable, and user-focused solutions, and I thrive in dynamic environments where I can apply my problem-solving and analytical skills. <br>
+               My goal is to contribute to innovative projects that make a real impact while continuing to grow as a professional in the technology industry</p><br>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="project">
+        <div class="project-section">
+            <h1>Projects</h1>
+
+            <div class="project-container">
+            <ul class="project-grid">
+                <!-- Group Project website -->
+                <li>
+                    <div class="project-card">
+                        <img src="images\Projects\group_project.png" alt="Group Project">
+                        <div class="project-content-padding">
+                        <p class="project-type">Web Application</p>
+                        <h2 class="project-title">Car sales website</h2>
+                        <ul class="ul">
+                            <li class="tools-used">
+                                <p class="project-html">HTML</p>
+                                <p class="project-js">JavaScript</p>
+                                <p class="project-php">PHP</p>
+                                <p class="project-sql">MYSQL</p>
+                                <p class="project-docker">Docker</p>
+                            </li>
+                        </ul>
+                            <br><p class="project-text">In this group project, we made a cars sale website called roberts motors ensuring responsiveness, authentication with login and other security features and stripe intergration.</p><br>
+                        <div class="button">
+                            <input class="read-button" type="button" value="Read More">
+                        </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- driving app project -->
+                <li>
+                    <div class="project-card">
+                        <img src="images\Projects\driving_app.png" alt="Group Project">
+                        <div class="project-content-padding">
+                        <p class="project-type">Mobile Application</p>
+                        <h2 class="project-title">Theory and practical driving application</h2>
+                        <ul class="ul">
+                            <li class="tools-used">
+                                <p class="project-html">React native</p>
+                                <p class="project-js">PHP</p>
+                                <p class="project-php">Expo go</p>
+                                <p class="project-sql">MySQL</p>
+                                <p class="project-docker">Xampp</p>
+                            </li>
+                        </ul>
+                            <br><p class="project-text">In this group project, we made a cars sale website called roberts motors ensuring responsiveness, authentication with login and other security features and stripe intergration.</p><br>
+                        <div class="button">
+                            <input class="read-button" type="button" value="Read More">
+                        </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- AI Sentiment Analysis --> 
+                <li>
+                    <div class="project-card">
+                        <img src="images\Projects\driving_app.png" alt="Group Project">
+                        <div class="project-content-padding">
+                        <p class="project-type">Mobile Application</p>
+                        <h2 class="project-title">Theory and practical driving application</h2>
+                        <ul class="ul">
+                            <li class="tools-used">
+                                <p class="project-html">React native</p>
+                                <p class="project-js">PHP</p>
+                                <p class="project-php">Expo go</p>
+                                <p class="project-sql">MySQL</p>
+                                <p class="project-docker">Xampp</p>
+                            </li>
+                        </ul>
+                            <br><p class="project-text">In this group project, we made a cars sale website called roberts motors ensuring responsiveness, authentication with login and other security features and stripe intergration.</p><br>
+                        <div class="button">
+                            <input class="read-button" type="button" value="Read More">
+                        </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- ed's electronics -->
+                <li>
+                    <div class="project-card">
+                        <img src="images\Projects\driving_app.png" alt="Group Project">
+                        <div class="project-content-padding">
+                        <p class="project-type">Mobile Application</p>
+                        <h2 class="project-title">Theory and practical driving application</h2>
+                        <ul class="ul">
+                            <li class="tools-used">
+                                <p class="project-html">React native</p>
+                                <p class="project-js">PHP</p>
+                                <p class="project-php">Expo go</p>
+                                <p class="project-sql">MySQL</p>
+                                <p class="project-docker">Xampp</p>
+                            </li>
+                        </ul>
+                            <br><p class="project-text">In this group project, we made a cars sale website called roberts motors ensuring responsiveness, authentication with login and other security features and stripe intergration.</p><br>
+                        <div class="button">
+                            <input class="read-button" type="button" value="Read More">
+                        </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- CCTV Recording system -->
+                <li>
+                    <div class="project-card">
+                        <img src="images\Projects\driving_app.png" alt="Group Project">
+                        <div class="project-content-padding">
+                        <p class="project-type">Mobile Application</p>
+                        <h2 class="project-title">Theory and practical driving application</h2>
+                        <ul class="ul">
+                            <li class="tools-used">
+                                <p class="project-html">React native</p>
+                                <p class="project-js">PHP</p>
+                                <p class="project-php">Expo go</p>
+                                <p class="project-sql">MySQL</p>
+                                <p class="project-docker">Xampp</p>
+                            </li>
+                        </ul>
+                            <br><p class="project-text">In this group project, we made a cars sale website called roberts motors ensuring responsiveness, authentication with login and other security features and stripe intergration.</p><br>
+                        <div class="button">
+                            <input class="read-button" type="button" value="Read More">
+                        </div>
+                    </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="skills-section">
+            <h1>Skills</h1>
+            <!-- Languages -->   
+            <div class="skills-grid">
+                <div class="skills-format">
+                    <h2>Languages</h2>
+                        <ul>
+                            <li>
+                                <img src="images\Languages\html.png" alt="HTML logo">
+                                <p>HTML</p>
+                            </li>
+                            <li>
+                                <img src="images\Languages\css.png" alt="CSS Logo">
+                                <p>CSS</p>
+                            </li>
+                            <li>
+                                <img src="images\Languages\css.png" alt="SCSS">
+                                <p>SCSS</p>
+                            </li>
+                            <li>
+                                <img src="images\Languages\java-script.png" alt="Javascript">
+                                <p>JavaScript</p>
+                            </li>
+                            <li>
+                                <img src="images\Languages\php.png" alt="PHP Logo">
+                                <p>PHP</p>
+                            </li>
+                            <li>
+                                <img src="images\Languages\Laravel.png" alt="Lavarel Logo">
+                                <p>Lavarel</p>
+                            </li>
+                            <li>
+                                <img src="images\Languages\python.png" alt="Python Logo">
+                                <p>python</p>
+                            </li>
+                            <li>
+                                <img src="images\Languages\React_icon.png" alt="React Native Logo">
+                                <p>React</p>
+                            </li>
+                            <li>
+                                <img src="images\Languages\react.png" alt="React Native Logo">
+                                <p>React Native</p>
+                            </li>
+                            <li>
+                                <img src="images\Languages\java.png" alt="Java Logo">
+                                <p>Java</p>
+                            </li>
+                            <li>
+                                <img src="images\Languages\bash.png" alt="Bash Logo">
+                                <p>Bash</p>
+                            </li>
+                        </ul>
+                    </div>
+                
+                <!-- Databases -->
+                <div class="skills-format">
+                    <h2>Databases</h2>
+                        <ul>
+                            <li>
+                                <img src="images\Databases\Oracle.png" alt="Oracle Logo">
+                                <p>Oracle</p>
+                            </li>
+                            <li>
+                                <img src="images\Databases\MongoDB.jpg" alt="MongoDB Logo">
+                                <p>Mongo DB</p>
+                            </li>
+                            <li>
+                                <img src="images\Databases\Neo4j.png" alt="Neo4j Logo">
+                                <p>Neo 4j</p>
+                            </li>
+                            <li>
+                                <img src="images\Databases\MySQLWorkbench.png" alt="MYSQL Workbench Logo">
+                                <p>MYSQL Workbench</p>
+                            </li>
+                            <li>
+                                <img src="images\Databases\postgresql.png" alt="PostgreSQL Logo">
+                                <p>PostgreSQL</p>
+                            </li>
+                        </ul>
+                    </div>
+                
+                <!-- Other Tools -->
+                <div class="skills-format">
+                    <h2>Other Tools</h2>
+                        <ul>
+                            <li>
+                                <img src="images\Other_Tools\Docker.png" alt="Docker Logo">
+                                <p>Docker</p>
+                            </li>
+                            <li>
+                                <img src="images\Other_Tools\xampp.png" alt="Xampp Logo">
+                                <p>Xampp</p>
+                            </li>
+                            <li>
+                                <img src="images\Other_Tools\Apache.png" alt="Apache Logo">
+                                <p>Apache</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-section">
+            <h1>Contact me!</h1>
+            <div class="form-container">
+                <label>Enter Your Name</label>
+                <input type="text" value ="name">
+                <input class="contact-button" type="button" value="Contact Me">
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <h5>@ Robert 2025</h5>
+    </footer>
+</body>
+</html>

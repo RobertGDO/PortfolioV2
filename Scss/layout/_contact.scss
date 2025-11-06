@@ -1,0 +1,14 @@
+.contact-section {
+    background-color:green;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button {
+    color: white;
+    background-color: black;
+    border: 60px solid linear-gradient(red 50%, white 50%);
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 25px;
+}

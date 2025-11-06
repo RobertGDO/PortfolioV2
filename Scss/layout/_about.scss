@@ -1,0 +1,22 @@
+.about-section {
+    background-color: #0D1321;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section p {
+    width: 65%;
+    word-wrap: break-word;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.51);
+    margin-bottom: 8em;
+}
+
+.about-section h1 {
+    color: white;
+    font-size: 64px;
+    margin-top: 2em;
+}

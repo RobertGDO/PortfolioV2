@@ -1,0 +1,123 @@
+.project-section {
+    background-color: #0D1321;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    align-items: center;
+    padding:1% 1%
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2) inset, 0 6px 20px 0 rgb(255, 253, 253, 0.05);
+    background-color: #16213e;
+    width: 100%;
+    max-width: 325px;
+    height: 500px;
+    border-radius: 2em;
+    font-family: 'Inter';
+    border: 0.1em solid #C5A23E;
+    overflow: hidden;
+}
+
+.project-content-padding {
+    padding: 0 4px 4px 4px;
+}
+
+
+.project-card img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2em 2em 0em 0em;
+    margin-bottom: 0.7em;
+}
+
+.project-section h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 0.5em;
+    font-size: 64px;
+}
+
+.project-grid li {
+    list-style: none;
+}
+
+.project-type {
+    color: aqua;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.project-title {
+    font-size: 1.5em;
+    color: white;
+}
+
+.tools-used {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 0.3em;
+    white-space: nowrap;
+    flex-wrap: wrap;
+}
+
+.tools-used p {
+    font-weight: bold;
+    border-radius: 5%;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    text-transform: uppercase;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+}
+
+.project-text {
+    color: white;
+}
+
+.project-html {
+    background-color: red;
+}
+
+.project-js {
+    background-color: orange;
+}
+
+.project-php {
+    background-color: blue;
+}
+
+.project-sql {
+    background-color: greenyellow;
+}
+
+.project-docker {
+    background-color: brown;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.read-button {
+    border-radius: 20%;
+}
