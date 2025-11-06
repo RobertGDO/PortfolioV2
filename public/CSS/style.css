@@ -14,10 +14,6 @@ header {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
 }
 
-footer {
-  background-color: crimson;
-}
-
 nav {
   position: fixed;
   height: 10vh;
@@ -159,7 +155,7 @@ nav a {
   background-color: rgb(26, 26, 36);
   width: 100%;
   max-width: 325px;
-  height: 500px;
+  height: 450px;
   border-radius: 2em;
   font-family: "Inter";
   border: 0.1em solid rgb(197, 162, 62);
@@ -354,7 +350,7 @@ nav a {
   padding: 2em;
   border-radius: 1em;
   border: 0.1em solid rgb(197, 162, 62);
-  margin-bottom: 2em;
+  margin-bottom: 5em;
   box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.406);
 }
 
@@ -399,4 +395,9 @@ nav a {
   width: 100px;
   height: 100px;
   margin-bottom: 1em;
+}
+
+footer {
+  color: white;
+  background-color: #0D1321;
 }/*# sourceMappingURL=style.css.map */
