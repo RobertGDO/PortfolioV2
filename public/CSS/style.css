@@ -202,11 +202,13 @@ nav a {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.9em;
+  margin-bottom: 0.1em;
 }
 
 .project-title {
   font-size: 1.5em;
   color: white;
+  margin-bottom: 0.2em;
 }
 
 .tools-used {
@@ -224,6 +226,7 @@ nav a {
   padding-inline-start: 0.75em;
   padding-inline-end: 0.75em;
   text-transform: uppercase;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 .ul {
@@ -273,6 +276,10 @@ nav a {
 
 .project-xampp {
   background-color: mintcream;
+}
+
+.project-expo {
+  background-color: silver;
 }
 
 .button {
