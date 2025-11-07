@@ -236,7 +236,7 @@ nav a {
 }
 
 .project-text {
-  color: white;
+  color: rgba(255, 255, 255, 0.669);
 }
 
 .project-html {
