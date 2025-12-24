@@ -165,11 +165,11 @@ nav a {
   display: flex;
   flex-direction: column;
   box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.406);
-  background-color: rgb(26, 26, 36);
+  background: linear-gradient(235deg, #0f1724 0%, #121b28 100%);
   width: 100%;
   max-width: 325px;
-  height: 500px;
-  border-radius: 2em;
+  height: 425px;
+  border-radius: 1em;
   font-family: "Inter";
   border: 0.1em solid rgb(197, 162, 62);
   overflow: hidden;
@@ -226,7 +226,7 @@ nav a {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 2em 2em 0em 0em;
+  border-radius: 1em 1em 0em 0em;
   margin-bottom: 0.7em;
 }
 
@@ -250,9 +250,9 @@ nav a {
 }
 
 .project-title {
+  margin-bottom: 0.5em;
   font-size: 1.5em;
   color: white;
-  margin-bottom: 0.2em;
 }
 
 .tools-used {
